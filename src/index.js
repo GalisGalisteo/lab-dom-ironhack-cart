@@ -55,4 +55,5 @@ window.addEventListener('load', () => {
   removeBtn.forEach(btn => {
     btn.addEventListener('click', removeProduct);
   })
+  calculateAll();
 });
